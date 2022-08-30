@@ -1,0 +1,51 @@
+Event	ID	Name			Wwise Object Path	Notes
+	249805233	Play_mx_hopeful_end			\Default Work Unit\Music\Play_mx_hopeful_end	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	560980338	Stop_Chimes_Lantern			\Default Work Unit\Stop_Chimes_Lantern	
+	1591723120	Play_Chimes_Smaller			\Default Work Unit\Play_Chimes_Smaller	
+	2415709729	Play_Main_Motif			\Default Work Unit\Music\Play_Main_Motif	
+	2432969486	Stop_UpperLevel			\Default Work Unit\Music\Stop_UpperLevel	
+	2574659234	Stop_Chimes_Smaller			\Default Work Unit\Stop_Chimes_Smaller	
+	2754249731	Stop_Chimes_Smaller_withoutstinger			\Default Work Unit\Stop_Chimes_Smaller_withoutstinger	
+	2787455125	Play_Cave_Music			\Default Work Unit\Music\Play_Cave_Music	
+	3030853131	Play_Rise_Firefly			\Default Work Unit\Music\Play_Rise_Firefly	
+	3166840808	Play_UpperLevel			\Default Work Unit\Music\Play_UpperLevel	
+	3793483137	Play_mx_theme_slow			\Default Work Unit\Music\Play_mx_theme_slow	
+	4019113859	Stop_Chimes_Play_Stinger			\Default Work Unit\Music\Stop_Chimes_Play_Stinger	
+	4264999239	Stop_Cave_Music			\Default Work Unit\Music\Stop_Cave_Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1805092367	Battleornot			\Default Work Unit\Battleornot	
+	3810155547	Locale			\Default Work Unit\Locale	
+
+State	ID	Name	State Group			Notes
+	0	None	Battleornot			
+	579523862	Explore	Battleornot			
+	2937832959	Battle	Battleornot			
+	0	None	Locale			
+	1035632317	Not_Sitting	Locale			
+	3353412347	Sitting	Locale			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	3978245845	Pickup			\Default Work Unit\Pickup	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	128376535	mx_cave_battle_flute_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cave_battle_flute_01_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\Cave\Battle\Battle_Main\mx_cave_battle_flute_01		3177996
+	133724406	mx_cave_battle_stinger_harp_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cave_battle_stinger_harp_01_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\Cave\Battle_Transition\mx_cave_battle_stinger_harp_01		397304
+	221154840	mx_hotaru_sample	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_hotaru_sample_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\UpperLevel\Sitting Tune\mx_hotaru_sample\mx_hotaru_sample		4032064
+	224557042	mx_rise_firefly	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_rise_firefly_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\Rise_Firefly\mx_rise_firefly\mx_rise_firefly		4766960
+	254257120	mx_cave_battle_cello_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cave_battle_cello_01_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\Cave\Battle\Battle_Main\mx_cave_battle_cello_01		3177996
+	254411794	Chimes_Smaller	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\Chimes Lantern_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Chimes_Smaller		2205064
+	384185337	mx_main_motif_beginning	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\mx_main_motif_beginning_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\UpperLevel\Main_Motif\mx_main_motif_beginning\mx_main_motif_beginning		7372864
+	413717815	mx_cave_battle_stinger_violin_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cave_battle_stinger_violin_01_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\Cave\Battle_Transition\mx_cave_battle_stinger_violin_01		397304
+	423357781	mx_cave_battle_harp_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cave_battle_harp_01_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\Cave\Battle\Battle_Main\mx_cave_battle_harp_01		3177996
+	442151878	mx_hopeful_end	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_hopeful_end_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\mx_hopeful_end\mx_hopeful_end		3177996
+	569114391	mx_theme_slow	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_theme_slow_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\mx_theme_slow\mx_theme_slow		5859376
+	620869399	mx_cave_battle_stinger_flute_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cave_battle_stinger_flute_01_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\Cave\Battle_Transition\mx_cave_battle_stinger_flute_01		397304
+	631243092	mx_cave_battle_violin_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cave_battle_violin_01_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\Cave\Battle\Battle_Main\mx_cave_battle_violin_01		3177996
+	710204692	mx_cave_battle_stinger_cello_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cave_battle_stinger_cello_01_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\Cave\Battle_Transition\mx_cave_battle_stinger_cello_01		397304
+	772054375	mx_hero_theme_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_hero_theme_02_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\Cave\Hero\mx_hero_theme_02\mx_hero_theme_02		5855400
+	814912550	mx_cutscene_03	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cutscene_03_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\UpperLevel\Sitting Tune\mx_cutscene_03\mx_cutscene_03		6451264
+	876758326	mx_stinger_pick_up	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\mx_stinger_pick_up_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\mx_stinger_pick_up\mx_stinger_pick_up		1054676
+	1043353527	mx_cutscene_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cutscene_02_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\UpperLevel\Sitting Tune\mx_cutscene_02\mx_cutscene_02		6451264
+

@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\WwiseProjects\Hotaru\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\WwiseProjects\Hotaru\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\DES310\FirstPlayable\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\WwiseProjects\Hotaru\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="English(US)">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>English(US)\Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup" MaxAttenuation="0.000000"/>
+				<Event Id="4234835850" Name="Play_A_Gurgling_Stream" ObjectPath="\Events\Default Work Unit\Play_A_Gurgling_Stream" MaxAttenuation="4000.000000"/>
+				<Event Id="3602995889" Name="Play_Cave" ObjectPath="\Events\Default Work Unit\Play_Cave"/>
+				<Event Id="1480192524" Name="Play_Chimes_Lantern" ObjectPath="\Events\Default Work Unit\Play_Chimes_Lantern" MaxAttenuation="10000.000000"/>
+				<Event Id="1591723120" Name="Play_Chimes_Smaller" ObjectPath="\Events\Default Work Unit\Play_Chimes_Smaller" MaxAttenuation="1000.000000"/>
+				<Event Id="1756816046" Name="Play_D_After_Feeding_The_Firefly" ObjectPath="\Events\Default Work Unit\Dialogue\Upper\Play_D_After_Feeding_The_Firefly"/>
+				<Event Id="1012744201" Name="Play_D_At_Well" ObjectPath="\Events\Default Work Unit\Dialogue\Upper\Play_D_At_Well"/>
+				<Event Id="207156488" Name="Play_D_Cave_Cavern_Runestone" ObjectPath="\Events\Default Work Unit\Dialogue\Cave\Play_D_Cave_Cavern_Runestone"/>
+				<Event Id="1104755333" Name="Play_D_Cave_Fall_Well" ObjectPath="\Events\Default Work Unit\Dialogue\Cave\Play_D_Cave_Fall_Well"/>
+				<Event Id="912759535" Name="Play_D_Cave_Firefly_pickup_01" ObjectPath="\Events\Default Work Unit\Dialogue\Cave\Play_D_Cave_Firefly_pickup_01"/>
+				<Event Id="2531044401" Name="Play_D_Cave_Tendril_Alarm" ObjectPath="\Events\Default Work Unit\Dialogue\Cave\Play_D_Cave_Tendril_Alarm"/>
+				<Event Id="1388255265" Name="Play_D_Cave_Tendril_Congrats" ObjectPath="\Events\Default Work Unit\Dialogue\Cave\Play_D_Cave_Tendril_Congrats"/>
+				<Event Id="3432621113" Name="Play_D_Cutscene_01" ObjectPath="\Events\Default Work Unit\Dialogue\Upper\Play_D_Cutscene_01"/>
+				<Event Id="3146525025" Name="Play_D_DARE_Transition_to_Darkness" ObjectPath="\Events\Default Work Unit\Dialogue\Upper\Play_D_DARE_Transition_to_Darkness"/>
+				<Event Id="2056478925" Name="Play_D_First_meeting_fireflies" ObjectPath="\Events\Default Work Unit\Dialogue\Upper\Play_D_First_meeting_fireflies"/>
+				<Event Id="2233495454" Name="Play_D_Harry_Sample" ObjectPath="\Events\Default Work Unit\Dialogue\Upper\Play_D_Harry_Sample"/>
+				<Event Id="2393051799" Name="Play_D_Mushroom_room" ObjectPath="\Events\Default Work Unit\Dialogue\Cave\Play_D_Mushroom_room"/>
+				<Event Id="689896021" Name="Play_D_Near_Tendrils" ObjectPath="\Events\Default Work Unit\Dialogue\Cave\Play_D_Near_Tendrils"/>
+				<Event Id="540519825" Name="Play_D_Pick_up_Food" ObjectPath="\Events\Default Work Unit\Dialogue\Upper\Play_D_Pick_up_Food"/>
+				<Event Id="2431222293" Name="Play_D_Sick_Firefly" ObjectPath="\Events\Default Work Unit\Dialogue\Upper\Play_D_Sick_Firefly"/>
+				<Event Id="2198804869" Name="Play_D_The_last_source_of_light_Corridor" ObjectPath="\Events\Default Work Unit\Dialogue\Cave\Play_D_The_last_source_of_light_Corridor"/>
+				<Event Id="1139330203" Name="Play_Footsteps_01" ObjectPath="\Events\Default Work Unit\Play_Footsteps_01"/>
+				<Event Id="683965635" Name="Play_Fullupper" ObjectPath="\Events\Default Work Unit\Play_Fullupper"/>
+				<Event Id="2756694246" Name="Play_Jumping" ObjectPath="\Events\Default Work Unit\Play_Jumping"/>
+				<Event Id="4067055972" Name="Play_Lantern_Hit" ObjectPath="\Events\Default Work Unit\Play_Lantern_Hit"/>
+				<Event Id="3834999297" Name="Play_Lantern_swing" ObjectPath="\Events\Default Work Unit\Play_Lantern_swing"/>
+				<Event Id="3475395898" Name="Play_Lion_Growling_SoundBible_com_657113062" ObjectPath="\Events\Default Work Unit\Play_Lion_Growling_SoundBible_com_657113062" MaxAttenuation="2000.000000"/>
+				<Event Id="2415709729" Name="Play_Main_Motif" ObjectPath="\Events\Default Work Unit\Music\Play_Main_Motif"/>
+				<Event Id="1150047389" Name="Play_mx_nature_piano_calm_120bpm4_4_L4M" ObjectPath="\Events\Default Work Unit\Music\Play_mx_nature_piano_calm_120bpm4_4_L4M" MaxAttenuation="4000.000000"/>
+				<Event Id="670564246" Name="Play_sfx_Cave_well_fall_01" ObjectPath="\Events\Default Work Unit\Play_sfx_Cave_well_fall_01"/>
+				<Event Id="3166840808" Name="Play_UpperLevel" ObjectPath="\Events\Default Work Unit\Music\Play_UpperLevel"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0.000000"/>
+				<Event Id="560980338" Name="Stop_Chimes_Lantern" ObjectPath="\Events\Default Work Unit\Stop_Chimes_Lantern" MaxAttenuation="0.000000"/>
+				<Event Id="4019113859" Name="Stop_Chimes_Play_Stinger" ObjectPath="\Events\Default Work Unit\Music\Stop_Chimes_Play_Stinger"/>
+				<Event Id="2574659234" Name="Stop_Chimes_Smaller" ObjectPath="\Events\Default Work Unit\Stop_Chimes_Smaller"/>
+				<Event Id="2754249731" Name="Stop_Chimes_Smaller_withoutstinger" ObjectPath="\Events\Default Work Unit\Stop_Chimes_Smaller_withoutstinger" MaxAttenuation="0.000000"/>
+				<Event Id="477306128" Name="Stop_Lion_Growling_SoundBible_com_657113062" ObjectPath="\Events\Default Work Unit\Stop_Lion_Growling_SoundBible_com_657113062" MaxAttenuation="1000.000000"/>
+				<Event Id="2432969486" Name="Stop_UpperLevel" ObjectPath="\Events\Default Work Unit\Music\Stop_UpperLevel" MaxAttenuation="0.000000"/>
+				<Event Id="2949289330" Name="Upper_Ambience" ObjectPath="\Events\Default Work Unit\Upper_Ambience"/>
+				<Event Id="2108779966" Name="Walk" ObjectPath="\Events\Default Work Unit\Walk"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="3661201" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-009.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-009_10C4C929.wem</Path>
+				</File>
+				<File Id="12464659" Language="SFX">
+					<ShortName>Wet Jump-004.wav</ShortName>
+					<Path>SFX\Wet Jump-004_10C4C929.wem</Path>
+				</File>
+				<File Id="19810562" Language="SFX">
+					<ShortName>sfx_ambience_Birds_6-002.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_6-002_10C4C929.wem</Path>
+				</File>
+				<File Id="21891349" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-010.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-010_10C4C929.wem</Path>
+				</File>
+				<File Id="22911826" Language="SFX">
+					<ShortName>sfx_footsteps_wet_19.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_19_10C4C929.wem</Path>
+				</File>
+				<File Id="43184324" Language="SFX">
+					<ShortName>sfx_tendril_death_01.wav</ShortName>
+					<Path>SFX\sfx_tendril_death_01_10C4C929.wem</Path>
+				</File>
+				<File Id="43442452" Language="SFX">
+					<ShortName>sfx_footsteps_wet_07.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_07_10C4C929.wem</Path>
+				</File>
+				<File Id="62337917" Language="SFX">
+					<ShortName>sfx_ambience_water_gurgle_03.wav</ShortName>
+					<Path>SFX\sfx_ambience_water_gurgle_03_10C4C929.wem</Path>
+				</File>
+				<File Id="71447124" Language="SFX">
+					<ShortName>sfx_cave_low_hum_01.wav</ShortName>
+					<Path>SFX\sfx_cave_low_hum_01_994B8AC7.wem</Path>
+				</File>
+				<File Id="71563159" Language="SFX">
+					<ShortName>sfx_ambience_Birds_1-002.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_1-002_10C4C929.wem</Path>
+				</File>
+				<File Id="74993240" Language="SFX">
+					<ShortName>sfx_metal_clang_hit_01-005.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_hit_01-005_10C4C929.wem</Path>
+				</File>
+				<File Id="75447057" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-001.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-001_10C4C929.wem</Path>
+				</File>
+				<File Id="77670860" Language="SFX">
+					<ShortName>sfx_mv_fabric_-007.wav</ShortName>
+					<Path>SFX\sfx_mv_fabric_-007_10C4C929.wem</Path>
+				</File>
+				<File Id="80643697" Language="SFX">
+					<ShortName>sfx_footsteps_wet_11.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_11_10C4C929.wem</Path>
+				</File>
+				<File Id="92495082" Language="SFX">
+					<ShortName>sfx_ambience_misc_02.wav</ShortName>
+					<Path>SFX\sfx_ambience_misc_02_10C4C929.wem</Path>
+				</File>
+				<File Id="94007671" Language="SFX">
+					<ShortName>sfx_footsteps_wet_06.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_06_10C4C929.wem</Path>
+				</File>
+				<File Id="99696049" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_11.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_11_10C4C929.wem</Path>
+				</File>
+				<File Id="113286382" Language="SFX">
+					<ShortName>sfx_mv_water_splash_11.wav</ShortName>
+					<Path>SFX\sfx_mv_water_splash_11_10C4C929.wem</Path>
+				</File>
+				<File Id="115031119" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-003.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-003_10C4C929.wem</Path>
+				</File>
+				<File Id="135488009" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-005.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-005_10C4C929.wem</Path>
+				</File>
+				<File Id="155230666" Language="SFX">
+					<ShortName>sfx_mv_water_splash_10.wav</ShortName>
+					<Path>SFX\sfx_mv_water_splash_10_10C4C929.wem</Path>
+				</File>
+				<File Id="175496249" Language="SFX">
+					<ShortName>Wet Jump-002.wav</ShortName>
+					<Path>SFX\Wet Jump-002_10C4C929.wem</Path>
+				</File>
+				<File Id="181155028" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-001.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-001_10C4C929.wem</Path>
+				</File>
+				<File Id="184133404" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-007.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-007_10C4C929.wem</Path>
+				</File>
+				<File Id="191820410" Language="SFX">
+					<ShortName>sfx_cave_lapping_water_01.wav</ShortName>
+					<Path>SFX\sfx_cave_lapping_water_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="193794899" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-009.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-009_10C4C929.wem</Path>
+				</File>
+				<File Id="194867715" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-010.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-010_10C4C929.wem</Path>
+				</File>
+				<File Id="220050418" Language="SFX">
+					<ShortName>sfx_cave_high_hum_01.wav</ShortName>
+					<Path>SFX\sfx_cave_high_hum_01_CA31ADCE.wem</Path>
+				</File>
+				<File Id="220256603" Language="SFX">
+					<ShortName>sfx_ambience_wind_soft_02.wav</ShortName>
+					<Path>SFX\sfx_ambience_wind_soft_02_10C4C929.wem</Path>
+				</File>
+				<File Id="221154840" Language="SFX">
+					<ShortName>mx_hotaru_sample.wav</ShortName>
+					<Path>SFX\mx_hotaru_sample_D79FB2B7.wem</Path>
+				</File>
+				<File Id="227119305" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-005.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-005_10C4C929.wem</Path>
+				</File>
+				<File Id="228744360" Language="SFX">
+					<ShortName>sfx_ambience_Birds_8-003.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_8-003_10C4C929.wem</Path>
+				</File>
+				<File Id="237054201" Language="SFX">
+					<ShortName>Lion Growling-SoundBible.com-657113062.wav</ShortName>
+					<Path>SFX\Lion Growling-SoundBible.com-657113062_D79FB2B7.wem</Path>
+				</File>
+				<File Id="239818669" Language="SFX">
+					<ShortName>sfx_ambience_Birds_1-001.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_1-001_10C4C929.wem</Path>
+				</File>
+				<File Id="241107672" Language="SFX">
+					<ShortName>sfx_footsteps_wet_02.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_02_10C4C929.wem</Path>
+				</File>
+				<File Id="241537451" Language="SFX">
+					<ShortName>sfx_ambience_low_wind_02.wav</ShortName>
+					<Path>SFX\sfx_ambience_low_wind_02_10C4C929.wem</Path>
+				</File>
+				<File Id="253747657" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-003.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-003_10C4C929.wem</Path>
+				</File>
+				<File Id="254411794" Language="SFX">
+					<ShortName>Chimes Lantern.wav</ShortName>
+					<Path>SFX\Chimes Lantern_D79FB2B7.wem</Path>
+				</File>
+				<File Id="256309790" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_10.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_10_10C4C929.wem</Path>
+				</File>
+				<File Id="258501943" Language="SFX">
+					<ShortName>sfx_ambience_misc_01.wav</ShortName>
+					<Path>SFX\sfx_ambience_misc_01_10C4C929.wem</Path>
+				</File>
+				<File Id="262900198" Language="SFX">
+					<ShortName>sfx_mv_fabric_-008.wav</ShortName>
+					<Path>SFX\sfx_mv_fabric_-008_10C4C929.wem</Path>
+				</File>
+				<File Id="265302717" Language="SFX">
+					<ShortName>sfx_tendril_02.wav</ShortName>
+					<Path>SFX\sfx_tendril_02_10C4C929.wem</Path>
+				</File>
+				<File Id="288625468" Language="SFX">
+					<ShortName>sfx_grapple_hit_wall_01.wav</ShortName>
+					<Path>SFX\sfx_grapple_hit_wall_01_10C4C929.wem</Path>
+				</File>
+				<File Id="302243032" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_04.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_04_10C4C929.wem</Path>
+				</File>
+				<File Id="326745693" Language="SFX">
+					<ShortName>sfx_footsteps_grass_Toe_02.wav</ShortName>
+					<Path>SFX\sfx_footsteps_grass_Toe_02_10C4C929.wem</Path>
+				</File>
+				<File Id="329113067" Language="SFX">
+					<ShortName>sfx_footsteps_grass_Toe_05.wav</ShortName>
+					<Path>SFX\sfx_footsteps_grass_Toe_05_10C4C929.wem</Path>
+				</File>
+				<File Id="335354027" Language="SFX">
+					<ShortName>sfx_footsteps_wet_17.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_17_10C4C929.wem</Path>
+				</File>
+				<File Id="336403432" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_03.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_03_10C4C929.wem</Path>
+				</File>
+				<File Id="343993029" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-004.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-004_10C4C929.wem</Path>
+				</File>
+				<File Id="365590614" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_09.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_09_10C4C929.wem</Path>
+				</File>
+				<File Id="371563294" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-012.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-012_10C4C929.wem</Path>
+				</File>
+				<File Id="373588837" Language="SFX">
+					<ShortName>mx_nature_piano_calm_120bpm4-4_L4M.wav</ShortName>
+					<Path>SFX\mx_nature_piano_calm_120bpm4-4_L4M_10C4C929.wem</Path>
+				</File>
+				<File Id="374879493" Language="English(US)">
+					<ShortName>D_First_meeting_fireflies.wav</ShortName>
+					<Path>Voices\English(US)\D_First_meeting_fireflies_10C4C929.wem</Path>
+				</File>
+				<File Id="376717974" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-004.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-004_10C4C929.wem</Path>
+				</File>
+				<File Id="384185337" Language="SFX">
+					<ShortName>mx_main_motif_beginning.wav</ShortName>
+					<Path>Voices\English(US)\mx_main_motif_beginning_D79FB2B7.wem</Path>
+				</File>
+				<File Id="384853182" Language="SFX">
+					<ShortName>sfx_footsteps_wet_10.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_10_10C4C929.wem</Path>
+				</File>
+				<File Id="387109824" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-008.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-008_10C4C929.wem</Path>
+				</File>
+				<File Id="389237723" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-004.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-004_10C4C929.wem</Path>
+				</File>
+				<File Id="415334280" Language="SFX">
+					<ShortName>sfx_Cave_well_fall_01.wav</ShortName>
+					<Path>SFX\sfx_Cave_well_fall_01_10C4C929.wem</Path>
+				</File>
+				<File Id="420090649" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-013.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-013_10C4C929.wem</Path>
+				</File>
+				<File Id="425022824" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-002.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-002_10C4C929.wem</Path>
+				</File>
+				<File Id="428360136" Language="SFX">
+					<ShortName>sfx_footsteps_wet_08.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_08_10C4C929.wem</Path>
+				</File>
+				<File Id="435810553" Language="SFX">
+					<ShortName>sfx_footsteps_wet_12.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_12_10C4C929.wem</Path>
+				</File>
+				<File Id="441927365" Language="SFX">
+					<ShortName>sfx_tendril_03.wav</ShortName>
+					<Path>SFX\sfx_tendril_03_10C4C929.wem</Path>
+				</File>
+				<File Id="447699428" Language="SFX">
+					<ShortName>sfx_mv_fabric_-004.wav</ShortName>
+					<Path>SFX\sfx_mv_fabric_-004_10C4C929.wem</Path>
+				</File>
+				<File Id="454380812" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-008.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-008_10C4C929.wem</Path>
+				</File>
+				<File Id="462478131" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-011.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-011_10C4C929.wem</Path>
+				</File>
+				<File Id="462828471" Language="SFX">
+					<ShortName>sfx_ambience_Birds_6-001.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_6-001_10C4C929.wem</Path>
+				</File>
+				<File Id="463957648" Language="SFX">
+					<ShortName>sfx_ambience_Birds_6-003.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_6-003_10C4C929.wem</Path>
+				</File>
+				<File Id="466940249" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-005.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-005_10C4C929.wem</Path>
+				</File>
+				<File Id="468122707" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-002.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-002_10C4C929.wem</Path>
+				</File>
+				<File Id="468325567" Language="English(US)">
+					<ShortName>D_Harry_Sample.wav</ShortName>
+					<Path>Voices\English(US)\D_Harry_Sample_10C4C929.wem</Path>
+				</File>
+				<File Id="491037622" Language="English(US)">
+					<ShortName>D_Sick_Firefly.wav</ShortName>
+					<Path>Voices\English(US)\D_Sick_Firefly_10C4C929.wem</Path>
+				</File>
+				<File Id="498406597" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-006.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-006_10C4C929.wem</Path>
+				</File>
+				<File Id="501033258" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-012.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-012_10C4C929.wem</Path>
+				</File>
+				<File Id="512857307" Language="SFX">
+					<ShortName>sfx_ambience_Birds_5-002.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_5-002_10C4C929.wem</Path>
+				</File>
+				<File Id="523334607" Language="SFX">
+					<ShortName>sfx_ambience_low_wind_03.wav</ShortName>
+					<Path>SFX\sfx_ambience_low_wind_03_10C4C929.wem</Path>
+				</File>
+				<File Id="526938905" Language="SFX">
+					<ShortName>sfx_ambience_Birds_4-002.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_4-002_10C4C929.wem</Path>
+				</File>
+				<File Id="531894190" Language="SFX">
+					<ShortName>sfx_mv_water_splash_07.wav</ShortName>
+					<Path>SFX\sfx_mv_water_splash_07_10C4C929.wem</Path>
+				</File>
+				<File Id="535679795" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-009.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-009_10C4C929.wem</Path>
+				</File>
+				<File Id="536242223" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-007.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-007_10C4C929.wem</Path>
+				</File>
+				<File Id="541362448" Language="SFX">
+					<ShortName>sfx_footsteps_grass_Toe_04.wav</ShortName>
+					<Path>SFX\sfx_footsteps_grass_Toe_04_10C4C929.wem</Path>
+				</File>
+				<File Id="550017488" Language="SFX">
+					<ShortName>sfx_footsteps_wet_16.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_16_10C4C929.wem</Path>
+				</File>
+				<File Id="577607892" Language="SFX">
+					<ShortName>sfx_footsteps_wet_05.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_05_10C4C929.wem</Path>
+				</File>
+				<File Id="582726057" Language="English(US)">
+					<ShortName>D_Near_Tendrils.wav</ShortName>
+					<Path>Voices\English(US)\D_Near_Tendrils_10C4C929.wem</Path>
+				</File>
+				<File Id="590182196" Language="English(US)">
+					<ShortName>D_The last source of light_Corridor.wav</ShortName>
+					<Path>Voices\English(US)\D_The last source of light_Corridor_10C4C929.wem</Path>
+				</File>
+				<File Id="590679558" Language="SFX">
+					<ShortName>sfx_ambience_Birds_6-005.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_6-005_10C4C929.wem</Path>
+				</File>
+				<File Id="602500012" Language="SFX">
+					<ShortName>sfx_footsteps_wet_15.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_15_10C4C929.wem</Path>
+				</File>
+				<File Id="609892289" Language="SFX">
+					<ShortName>sfx_ambience_cicada_01.wav</ShortName>
+					<Path>SFX\sfx_ambience_cicada_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="616424102" Language="SFX">
+					<ShortName>sfx_footsteps_wet_03.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_03_10C4C929.wem</Path>
+				</File>
+				<File Id="617330260" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-011.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-011_10C4C929.wem</Path>
+				</File>
+				<File Id="619118550" Language="SFX">
+					<ShortName>sfx_ambience_Birds_6-008.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_6-008_10C4C929.wem</Path>
+				</File>
+				<File Id="621874009" Language="SFX">
+					<ShortName>sfx_tendril_01.wav</ShortName>
+					<Path>SFX\sfx_tendril_01_10C4C929.wem</Path>
+				</File>
+				<File Id="634775000" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-003.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-003_10C4C929.wem</Path>
+				</File>
+				<File Id="646213513" Language="English(US)">
+					<ShortName>D_Cave_Tendril_Alarm.wav</ShortName>
+					<Path>Voices\English(US)\D_Cave_Tendril_Alarm_10C4C929.wem</Path>
+				</File>
+				<File Id="654434202" Language="English(US)">
+					<ShortName>D_After_Feeding_The_Firefly.wav</ShortName>
+					<Path>Voices\English(US)\D_After_Feeding_The_Firefly_10C4C929.wem</Path>
+				</File>
+				<File Id="656427525" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_13.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_13_10C4C929.wem</Path>
+				</File>
+				<File Id="663502190" Language="SFX">
+					<ShortName>sfx_ambience_Birds_6-004.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_6-004_10C4C929.wem</Path>
+				</File>
+				<File Id="669248201" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_08.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_08_10C4C929.wem</Path>
+				</File>
+				<File Id="673210458" Language="SFX">
+					<ShortName>sfx_metal_clang_hit_01-003.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_hit_01-003_10C4C929.wem</Path>
+				</File>
+				<File Id="677921709" Language="SFX">
+					<ShortName>Wet Jump-001.wav</ShortName>
+					<Path>SFX\Wet Jump-001_10C4C929.wem</Path>
+				</File>
+				<File Id="678434862" Language="English(US)">
+					<ShortName>D_Cave_Cavern_Runestone.wav</ShortName>
+					<Path>Voices\English(US)\D_Cave_Cavern_Runestone_10C4C929.wem</Path>
+				</File>
+				<File Id="684470026" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_12.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_12_10C4C929.wem</Path>
+				</File>
+				<File Id="688995326" Language="SFX">
+					<ShortName>sfx_ambience_Birds_8-002.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_8-002_10C4C929.wem</Path>
+				</File>
+				<File Id="694269364" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-011.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-011_10C4C929.wem</Path>
+				</File>
+				<File Id="699679949" Language="SFX">
+					<ShortName>sfx_ambience_Birds_6-006.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_6-006_10C4C929.wem</Path>
+				</File>
+				<File Id="709038516" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-011.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-011_10C4C929.wem</Path>
+				</File>
+				<File Id="713853016" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-010.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-010_10C4C929.wem</Path>
+				</File>
+				<File Id="720795190" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-005.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-005_10C4C929.wem</Path>
+				</File>
+				<File Id="726213784" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-010.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-010_10C4C929.wem</Path>
+				</File>
+				<File Id="726378517" Language="SFX">
+					<ShortName>sfx_mv_fabric_-006.wav</ShortName>
+					<Path>SFX\sfx_mv_fabric_-006_10C4C929.wem</Path>
+				</File>
+				<File Id="729955919" Language="SFX">
+					<ShortName>sfx_lantern_whoosh_01-001.wav</ShortName>
+					<Path>SFX\sfx_lantern_whoosh_01-001_10C4C929.wem</Path>
+				</File>
+				<File Id="735333818" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-014.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-014_10C4C929.wem</Path>
+				</File>
+				<File Id="737262590" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-001.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-001_10C4C929.wem</Path>
+				</File>
+				<File Id="753548344" Language="SFX">
+					<ShortName>sfx_metal_clang_hit_01-002.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_hit_01-002_10C4C929.wem</Path>
+				</File>
+				<File Id="755112037" Language="SFX">
+					<ShortName>sfx_footsteps_wet_14.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_14_10C4C929.wem</Path>
+				</File>
+				<File Id="756898731" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-002.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-002_10C4C929.wem</Path>
+				</File>
+				<File Id="786644068" Language="SFX">
+					<ShortName>sfx_ambience_Birds_6-009.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_6-009_10C4C929.wem</Path>
+				</File>
+				<File Id="786818914" Language="SFX">
+					<ShortName>sfx_footsteps_grass_Toe_03.wav</ShortName>
+					<Path>SFX\sfx_footsteps_grass_Toe_03_10C4C929.wem</Path>
+				</File>
+				<File Id="804445392" Language="SFX">
+					<ShortName>sfx_ambience_Birds_6.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_6_10C4C929.wem</Path>
+				</File>
+				<File Id="807967293" Language="English(US)">
+					<ShortName>D_Mushroom_room.wav</ShortName>
+					<Path>Voices\English(US)\D_Mushroom_room_10C4C929.wem</Path>
+				</File>
+				<File Id="811968472" Language="SFX">
+					<ShortName>sfx_ambience_Birds_6-007.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_6-007_10C4C929.wem</Path>
+				</File>
+				<File Id="812416904" Language="SFX">
+					<ShortName>sfx_mv_fabric_-003.wav</ShortName>
+					<Path>SFX\sfx_mv_fabric_-003_10C4C929.wem</Path>
+				</File>
+				<File Id="812752574" Language="SFX">
+					<ShortName>sfx_metal_clang_hit_01-004.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_hit_01-004_10C4C929.wem</Path>
+				</File>
+				<File Id="814875546" Language="English(US)">
+					<ShortName>D_At_Well.wav</ShortName>
+					<Path>Voices\English(US)\D_At_Well_772B8C36.wem</Path>
+				</File>
+				<File Id="814912550" Language="SFX">
+					<ShortName>mx_cutscene_03.wav</ShortName>
+					<Path>SFX\mx_cutscene_03_D79FB2B7.wem</Path>
+				</File>
+				<File Id="821163020" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-001.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-001_10C4C929.wem</Path>
+				</File>
+				<File Id="824414999" Language="SFX">
+					<ShortName>sfx_footsteps_grass_Toe_01.wav</ShortName>
+					<Path>SFX\sfx_footsteps_grass_Toe_01_10C4C929.wem</Path>
+				</File>
+				<File Id="832701487" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-006.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-006_10C4C929.wem</Path>
+				</File>
+				<File Id="835748287" Language="SFX">
+					<ShortName>sfx_ambience_Birds_8-001.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_8-001_10C4C929.wem</Path>
+				</File>
+				<File Id="837965014" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-004.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-004_10C4C929.wem</Path>
+				</File>
+				<File Id="839906915" Language="English(US)">
+					<ShortName>D_Pick_up_Food.wav</ShortName>
+					<Path>Voices\English(US)\D_Pick_up_Food_B865ED31.wem</Path>
+				</File>
+				<File Id="843218497" Language="SFX">
+					<ShortName>sfx_metal_clang_hit_01-001.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_hit_01-001_10C4C929.wem</Path>
+				</File>
+				<File Id="846343333" Language="SFX">
+					<ShortName>sfx_footsteps_wet_18.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_18_10C4C929.wem</Path>
+				</File>
+				<File Id="846378628" Language="SFX">
+					<ShortName>sfx_lantern_whoosh_01-003.wav</ShortName>
+					<Path>SFX\sfx_lantern_whoosh_01-003_10C4C929.wem</Path>
+				</File>
+				<File Id="846719313" Language="English(US)">
+					<ShortName>D_Cave_Fall_Well.wav</ShortName>
+					<Path>Voices\English(US)\D_Cave_Fall_Well_10C4C929.wem</Path>
+				</File>
+				<File Id="855528841" Language="SFX">
+					<ShortName>Wet Jump-003.wav</ShortName>
+					<Path>SFX\Wet Jump-003_10C4C929.wem</Path>
+				</File>
+				<File Id="857177588" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_14.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_14_10C4C929.wem</Path>
+				</File>
+				<File Id="858468184" Language="SFX">
+					<ShortName>sfx_ambience_Birds_5-001.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_5-001_10C4C929.wem</Path>
+				</File>
+				<File Id="867277791" Language="SFX">
+					<ShortName>sfx_footsteps_wet_01.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_01_10C4C929.wem</Path>
+				</File>
+				<File Id="876758326" Language="SFX">
+					<ShortName>mx_stinger_pick_up.wav</ShortName>
+					<Path>Voices\English(US)\mx_stinger_pick_up_D79FB2B7.wem</Path>
+				</File>
+				<File Id="882803344" Language="SFX">
+					<ShortName>sfx_cave_low_hum_02.wav</ShortName>
+					<Path>SFX\sfx_cave_low_hum_02_8DF545CF.wem</Path>
+				</File>
+				<File Id="885579382" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-008.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-008_10C4C929.wem</Path>
+				</File>
+				<File Id="885845745" Language="SFX">
+					<ShortName>sfx_footsteps_wet_09.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_09_10C4C929.wem</Path>
+				</File>
+				<File Id="890964074" Language="SFX">
+					<ShortName>sfx_ambience_Birds_4-001.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_4-001_10C4C929.wem</Path>
+				</File>
+				<File Id="897014849" Language="SFX">
+					<ShortName>sfx_ambience_tree_rustle_01.wav</ShortName>
+					<Path>SFX\sfx_ambience_tree_rustle_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="897538707" Language="SFX">
+					<ShortName>sfx_ambience_wind_soft_01.wav</ShortName>
+					<Path>SFX\sfx_ambience_wind_soft_01_10C4C929.wem</Path>
+				</File>
+				<File Id="897781422" Language="SFX">
+					<ShortName>sfx_ambience_water_gurgle_02.wav</ShortName>
+					<Path>SFX\sfx_ambience_water_gurgle_02_10C4C929.wem</Path>
+				</File>
+				<File Id="903954876" Language="SFX">
+					<ShortName>sfx_footsteps_wet_04.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_04_10C4C929.wem</Path>
+				</File>
+				<File Id="929592269" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_05.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_05_10C4C929.wem</Path>
+				</File>
+				<File Id="942158821" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-007.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-007_10C4C929.wem</Path>
+				</File>
+				<File Id="945297232" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_07.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_07_10C4C929.wem</Path>
+				</File>
+				<File Id="945638209" Language="SFX">
+					<ShortName>sfx_mv_fabric_-005.wav</ShortName>
+					<Path>SFX\sfx_mv_fabric_-005_10C4C929.wem</Path>
+				</File>
+				<File Id="949308046" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-006.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-006_10C4C929.wem</Path>
+				</File>
+				<File Id="956239355" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-009.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-009_10C4C929.wem</Path>
+				</File>
+				<File Id="966840598" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_01.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_01_10C4C929.wem</Path>
+				</File>
+				<File Id="989651391" Language="SFX">
+					<ShortName>sfx_mv_fabric_-001.wav</ShortName>
+					<Path>SFX\sfx_mv_fabric_-001_10C4C929.wem</Path>
+				</File>
+				<File Id="990892243" Language="SFX">
+					<ShortName>sfx_mv_water_splash_09.wav</ShortName>
+					<Path>SFX\sfx_mv_water_splash_09_10C4C929.wem</Path>
+				</File>
+				<File Id="991365060" Language="SFX">
+					<ShortName>sfx_ambience_water_gurgle_01.wav</ShortName>
+					<Path>SFX\sfx_ambience_water_gurgle_01_10C4C929.wem</Path>
+				</File>
+				<File Id="998938789" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-003.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-003_10C4C929.wem</Path>
+				</File>
+				<File Id="1003711305" Language="English(US)">
+					<ShortName>D_Cutscene.wav</ShortName>
+					<Path>Voices\English(US)\D_Cutscene_10C4C929.wem</Path>
+				</File>
+				<File Id="1009254066" Language="SFX">
+					<ShortName>sfx_metal_clang_tail_01-002.wav</ShortName>
+					<Path>SFX\sfx_metal_clang_tail_01-002_10C4C929.wem</Path>
+				</File>
+				<File Id="1009525473" Language="SFX">
+					<ShortName>sfx_ambience_cave_drops_01.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_drops_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1019954697" Language="English(US)">
+					<ShortName>D_Cave_Firefly_pickup_01.wav</ShortName>
+					<Path>Voices\English(US)\D_Cave_Firefly_pickup_01_10C4C929.wem</Path>
+				</File>
+				<File Id="1027362179" Language="SFX">
+					<ShortName>sfx_mv_fabric_-002.wav</ShortName>
+					<Path>SFX\sfx_mv_fabric_-002_10C4C929.wem</Path>
+				</File>
+				<File Id="1034904601" Language="SFX">
+					<ShortName>sfx_ambience_Birds_4-003.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_4-003_10C4C929.wem</Path>
+				</File>
+				<File Id="1038878071" Language="SFX">
+					<ShortName>sfx_footsteps_hard_01-008.wav</ShortName>
+					<Path>SFX\sfx_footsteps_hard_01-008_10C4C929.wem</Path>
+				</File>
+				<File Id="1041784391" Language="SFX">
+					<ShortName>sfx_ambience_low_wind_01.wav</ShortName>
+					<Path>SFX\sfx_ambience_low_wind_01_10C4C929.wem</Path>
+				</File>
+				<File Id="1043353527" Language="SFX">
+					<ShortName>mx_cutscene_02.wav</ShortName>
+					<Path>SFX\mx_cutscene_02_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1043543824" Language="SFX">
+					<ShortName>D_DARE_Transition_to_Darkness.wav</ShortName>
+					<Path>SFX\D_DARE_Transition_to_Darkness_10C4C929.wem</Path>
+				</File>
+				<File Id="1044686006" Language="SFX">
+					<ShortName>sfx_ambience_Birds_2-006.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_2-006_10C4C929.wem</Path>
+				</File>
+				<File Id="1046403007" Language="SFX">
+					<ShortName>sfx_lantern_whoosh_01-002.wav</ShortName>
+					<Path>SFX\sfx_lantern_whoosh_01-002_10C4C929.wem</Path>
+				</File>
+				<File Id="1050201975" Language="SFX">
+					<ShortName>sfx_mv_water_splash_08.wav</ShortName>
+					<Path>SFX\sfx_mv_water_splash_08_10C4C929.wem</Path>
+				</File>
+				<File Id="1055320350" Language="English(US)">
+					<ShortName>D_Cave_Tendril_Congrats.wav</ShortName>
+					<Path>Voices\English(US)\D_Cave_Tendril_Congrats_10C4C929.wem</Path>
+				</File>
+				<File Id="1057164570" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_02.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_02_10C4C929.wem</Path>
+				</File>
+				<File Id="1063444917" Language="SFX">
+					<ShortName>sfx_ambience_Birds_7-007.wav</ShortName>
+					<Path>SFX\sfx_ambience_Birds_7-007_10C4C929.wem</Path>
+				</File>
+				<File Id="1068525347" Language="SFX">
+					<ShortName>sfx_ambience_cave_creepy_06.wav</ShortName>
+					<Path>SFX\sfx_ambience_cave_creepy_06_10C4C929.wem</Path>
+				</File>
+				<File Id="1072195334" Language="SFX">
+					<ShortName>sfx_footsteps_wet_13.wav</ShortName>
+					<Path>SFX\sfx_footsteps_wet_13_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2787455125" Name="Play_Cave_Music" ObjectPath="\Events\Default Work Unit\Music\Play_Cave_Music"/>
+				<Event Id="1591723120" Name="Play_Chimes_Smaller" ObjectPath="\Events\Default Work Unit\Play_Chimes_Smaller" MaxAttenuation="1000.000000"/>
+				<Event Id="2415709729" Name="Play_Main_Motif" ObjectPath="\Events\Default Work Unit\Music\Play_Main_Motif"/>
+				<Event Id="249805233" Name="Play_mx_hopeful_end" ObjectPath="\Events\Default Work Unit\Music\Play_mx_hopeful_end"/>
+				<Event Id="3793483137" Name="Play_mx_theme_slow" ObjectPath="\Events\Default Work Unit\Music\Play_mx_theme_slow"/>
+				<Event Id="3030853131" Name="Play_Rise_Firefly" ObjectPath="\Events\Default Work Unit\Music\Play_Rise_Firefly"/>
+				<Event Id="3166840808" Name="Play_UpperLevel" ObjectPath="\Events\Default Work Unit\Music\Play_UpperLevel"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0.000000"/>
+				<Event Id="4264999239" Name="Stop_Cave_Music" ObjectPath="\Events\Default Work Unit\Music\Stop_Cave_Music" MaxAttenuation="0.000000"/>
+				<Event Id="560980338" Name="Stop_Chimes_Lantern" ObjectPath="\Events\Default Work Unit\Stop_Chimes_Lantern" MaxAttenuation="0.000000"/>
+				<Event Id="4019113859" Name="Stop_Chimes_Play_Stinger" ObjectPath="\Events\Default Work Unit\Music\Stop_Chimes_Play_Stinger"/>
+				<Event Id="2574659234" Name="Stop_Chimes_Smaller" ObjectPath="\Events\Default Work Unit\Stop_Chimes_Smaller"/>
+				<Event Id="2754249731" Name="Stop_Chimes_Smaller_withoutstinger" ObjectPath="\Events\Default Work Unit\Stop_Chimes_Smaller_withoutstinger" MaxAttenuation="0.000000"/>
+				<Event Id="2432969486" Name="Stop_UpperLevel" ObjectPath="\Events\Default Work Unit\Music\Stop_UpperLevel" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="128376535" Language="SFX">
+					<ShortName>mx_cave_battle_flute_01.wav</ShortName>
+					<Path>SFX\mx_cave_battle_flute_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="133724406" Language="SFX">
+					<ShortName>mx_cave_battle_stinger_harp_01.wav</ShortName>
+					<Path>SFX\mx_cave_battle_stinger_harp_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="221154840" Language="SFX">
+					<ShortName>mx_hotaru_sample.wav</ShortName>
+					<Path>SFX\mx_hotaru_sample_D79FB2B7.wem</Path>
+				</File>
+				<File Id="224557042" Language="SFX">
+					<ShortName>mx_rise_firefly.wav</ShortName>
+					<Path>SFX\mx_rise_firefly_D79FB2B7.wem</Path>
+				</File>
+				<File Id="254257120" Language="SFX">
+					<ShortName>mx_cave_battle_cello_01.wav</ShortName>
+					<Path>SFX\mx_cave_battle_cello_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="254411794" Language="SFX">
+					<ShortName>Chimes Lantern.wav</ShortName>
+					<Path>SFX\Chimes Lantern_D79FB2B7.wem</Path>
+				</File>
+				<File Id="384185337" Language="SFX">
+					<ShortName>mx_main_motif_beginning.wav</ShortName>
+					<Path>Voices\English(US)\mx_main_motif_beginning_D79FB2B7.wem</Path>
+				</File>
+				<File Id="413717815" Language="SFX">
+					<ShortName>mx_cave_battle_stinger_violin_01.wav</ShortName>
+					<Path>SFX\mx_cave_battle_stinger_violin_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="423357781" Language="SFX">
+					<ShortName>mx_cave_battle_harp_01.wav</ShortName>
+					<Path>SFX\mx_cave_battle_harp_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="442151878" Language="SFX">
+					<ShortName>mx_hopeful_end.wav</ShortName>
+					<Path>SFX\mx_hopeful_end_D79FB2B7.wem</Path>
+				</File>
+				<File Id="569114391" Language="SFX">
+					<ShortName>mx_theme_slow.wav</ShortName>
+					<Path>SFX\mx_theme_slow_D79FB2B7.wem</Path>
+				</File>
+				<File Id="620869399" Language="SFX">
+					<ShortName>mx_cave_battle_stinger_flute_01.wav</ShortName>
+					<Path>SFX\mx_cave_battle_stinger_flute_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="631243092" Language="SFX">
+					<ShortName>mx_cave_battle_violin_01.wav</ShortName>
+					<Path>SFX\mx_cave_battle_violin_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="710204692" Language="SFX">
+					<ShortName>mx_cave_battle_stinger_cello_01.wav</ShortName>
+					<Path>SFX\mx_cave_battle_stinger_cello_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="772054375" Language="SFX">
+					<ShortName>mx_hero_theme_02.wav</ShortName>
+					<Path>SFX\mx_hero_theme_02_D79FB2B7.wem</Path>
+				</File>
+				<File Id="814912550" Language="SFX">
+					<ShortName>mx_cutscene_03.wav</ShortName>
+					<Path>SFX\mx_cutscene_03_D79FB2B7.wem</Path>
+				</File>
+				<File Id="876758326" Language="SFX">
+					<ShortName>mx_stinger_pick_up.wav</ShortName>
+					<Path>Voices\English(US)\mx_stinger_pick_up_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1043353527" Language="SFX">
+					<ShortName>mx_cutscene_02.wav</ShortName>
+					<Path>SFX\mx_cutscene_02_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

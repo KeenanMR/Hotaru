@@ -1,0 +1,264 @@
+Event	ID	Name			Wwise Object Path	Notes
+	207156488	Play_D_Cave_Cavern_Runestone			\Default Work Unit\Dialogue\Cave\Play_D_Cave_Cavern_Runestone	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	477306128	Stop_Lion_Growling_SoundBible_com_657113062			\Default Work Unit\Stop_Lion_Growling_SoundBible_com_657113062	
+	540519825	Play_D_Pick_up_Food			\Default Work Unit\Dialogue\Upper\Play_D_Pick_up_Food	
+	560980338	Stop_Chimes_Lantern			\Default Work Unit\Stop_Chimes_Lantern	
+	670564246	Play_sfx_Cave_well_fall_01			\Default Work Unit\Play_sfx_Cave_well_fall_01	
+	683965635	Play_Fullupper			\Default Work Unit\Play_Fullupper	
+	689896021	Play_D_Near_Tendrils			\Default Work Unit\Dialogue\Cave\Play_D_Near_Tendrils	
+	912759535	Play_D_Cave_Firefly_pickup_01			\Default Work Unit\Dialogue\Cave\Play_D_Cave_Firefly_pickup_01	
+	1012744201	Play_D_At_Well			\Default Work Unit\Dialogue\Upper\Play_D_At_Well	
+	1104755333	Play_D_Cave_Fall_Well			\Default Work Unit\Dialogue\Cave\Play_D_Cave_Fall_Well	
+	1139330203	Play_Footsteps_01			\Default Work Unit\Play_Footsteps_01	
+	1150047389	Play_mx_nature_piano_calm_120bpm4_4_L4M			\Default Work Unit\Music\Play_mx_nature_piano_calm_120bpm4_4_L4M	
+	1388255265	Play_D_Cave_Tendril_Congrats			\Default Work Unit\Dialogue\Cave\Play_D_Cave_Tendril_Congrats	
+	1480192524	Play_Chimes_Lantern			\Default Work Unit\Play_Chimes_Lantern	
+	1591723120	Play_Chimes_Smaller			\Default Work Unit\Play_Chimes_Smaller	
+	1756816046	Play_D_After_Feeding_The_Firefly			\Default Work Unit\Dialogue\Upper\Play_D_After_Feeding_The_Firefly	
+	2056478925	Play_D_First_meeting_fireflies			\Default Work Unit\Dialogue\Upper\Play_D_First_meeting_fireflies	
+	2108779966	Walk			\Default Work Unit\Walk	
+	2198804869	Play_D_The_last_source_of_light_Corridor			\Default Work Unit\Dialogue\Cave\Play_D_The_last_source_of_light_Corridor	
+	2233495454	Play_D_Harry_Sample			\Default Work Unit\Dialogue\Upper\Play_D_Harry_Sample	
+	2393051799	Play_D_Mushroom_room			\Default Work Unit\Dialogue\Cave\Play_D_Mushroom_room	
+	2415709729	Play_Main_Motif			\Default Work Unit\Music\Play_Main_Motif	
+	2431222293	Play_D_Sick_Firefly			\Default Work Unit\Dialogue\Upper\Play_D_Sick_Firefly	
+	2432969486	Stop_UpperLevel			\Default Work Unit\Music\Stop_UpperLevel	
+	2531044401	Play_D_Cave_Tendril_Alarm			\Default Work Unit\Dialogue\Cave\Play_D_Cave_Tendril_Alarm	
+	2574659234	Stop_Chimes_Smaller			\Default Work Unit\Stop_Chimes_Smaller	
+	2754249731	Stop_Chimes_Smaller_withoutstinger			\Default Work Unit\Stop_Chimes_Smaller_withoutstinger	
+	2756694246	Play_Jumping			\Default Work Unit\Play_Jumping	
+	2949289330	Upper_Ambience			\Default Work Unit\Upper_Ambience	
+	3146525025	Play_D_DARE_Transition_to_Darkness			\Default Work Unit\Dialogue\Upper\Play_D_DARE_Transition_to_Darkness	
+	3166840808	Play_UpperLevel			\Default Work Unit\Music\Play_UpperLevel	
+	3432621113	Play_D_Cutscene_01			\Default Work Unit\Dialogue\Upper\Play_D_Cutscene_01	
+	3475395898	Play_Lion_Growling_SoundBible_com_657113062			\Default Work Unit\Play_Lion_Growling_SoundBible_com_657113062	
+	3602995889	Play_Cave			\Default Work Unit\Play_Cave	
+	3834999297	Play_Lantern_swing			\Default Work Unit\Play_Lantern_swing	
+	3978245845	Pickup			\Default Work Unit\Pickup	
+	4019113859	Stop_Chimes_Play_Stinger			\Default Work Unit\Music\Stop_Chimes_Play_Stinger	
+	4067055972	Play_Lantern_Hit			\Default Work Unit\Play_Lantern_Hit	
+	4234835850	Play_A_Gurgling_Stream			\Default Work Unit\Play_A_Gurgling_Stream	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2129636626	Movement			\Default Work Unit\Movement	
+
+Switch	ID	Name	Switch Group			Notes
+	1181096339	Wet	Movement			
+	3826567475	Hardsurface	Movement			
+	4248645337	Grass	Movement			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3810155547	Locale			\Default Work Unit\Locale	
+
+State	ID	Name	State Group			Notes
+	0	None	Locale			
+	1035632317	Not_Sitting	Locale			
+	3353412347	Sitting	Locale			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1705516017	DayNight			\Default Work Unit\DayNight	
+	3631438710	Cavern			\Default Work Unit\Cavern	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	3978245845	Pickup			\Default Work Unit\Pickup	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
+	1513769438	Pickup_Stinger			\Default Work Unit\Master Audio Bus\Pickup_Stinger	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\Dialogue	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+	4239446561	Dual_Filters_Narrow_Bandwidth	Wwise Parametric EQ			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	196258924	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Misc\New Sound SFX\Wwise Silence	
+	816408080	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\New Sound SFX\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3661201	sfx_ambience_Birds_2-009	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-009		72746
+	12464659	Wet Jump-004	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\Wet Jump-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Jumping\Wet\J_Wet\Wet Jump-004		35866
+	19810562	sfx_ambience_Birds_6-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_6-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_06\sfx_ambience_Birds_6-002		75088
+	21891349	sfx_footsteps_hard_01-010	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-010		24622
+	22911826	sfx_footsteps_wet_19	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_19_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_19		7486
+	43184324	sfx_tendril_death_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_tendril_death_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tendril\Tendril_Death\sfx_tendril_death_01		376880
+	43442452	sfx_footsteps_wet_07	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_07		6580
+	62337917	sfx_ambience_water_gurgle_03	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_water_gurgle_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\A_Gurgling_Stream\sfx_ambience_water_gurgle_03		467124
+	71447124	sfx_cave_low_hum_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_cave_low_hum_01_994B8AC7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Cavern\Hum\sfx_cave_low_hum_01		5326352
+	71563159	sfx_ambience_Birds_1-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_1-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_01\sfx_ambience_Birds_1-002		131584
+	74993240	sfx_metal_clang_hit_01-005	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_hit_01-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Bang\sfx_metal_clang_hit_01-005		42808
+	75447057	sfx_footsteps_hard_01-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-001		33858
+	77670860	sfx_mv_fabric_-007	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_fabric_-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Gak\sfx_mv_fabric_-007		34318
+	80643697	sfx_footsteps_wet_11	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_11		10926
+	92495082	sfx_ambience_misc_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_misc_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Misc\sfx_ambience_misc_02		28886
+	94007671	sfx_footsteps_wet_06	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_06		15112
+	99696049	sfx_ambience_cave_creepy_11	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_11		500344
+	113286382	sfx_mv_water_splash_11	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_water_splash_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\Splashes\sfx_mv_water_splash_11		51808
+	115031119	sfx_ambience_Birds_7-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-003		61448
+	135488009	sfx_ambience_Birds_2-005	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-005		101688
+	155230666	sfx_mv_water_splash_10	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_water_splash_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\Splashes\sfx_mv_water_splash_10		75654
+	175496249	Wet Jump-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\Wet Jump-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Jumping\Wet\J_Wet\Wet Jump-002		43766
+	181155028	sfx_ambience_Birds_2-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-001		90578
+	184133404	sfx_metal_clang_tail_01-007	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-007		25314
+	191820410	sfx_cave_lapping_water_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_cave_lapping_water_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Cavern\sfx_cave_lapping_water_01		4032064
+	193794899	sfx_ambience_Birds_7-009	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-009		295206
+	194867715	sfx_ambience_Birds_2-010	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-010		28168
+	220050418	sfx_cave_high_hum_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_cave_high_hum_01_CA31ADCE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Cavern\sfx_cave_high_hum_01		5376128
+	220256603	sfx_ambience_wind_soft_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_wind_soft_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Wind\Winds\sfx_ambience_wind_soft_02		2880064
+	221154840	mx_hotaru_sample	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_hotaru_sample_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\UpperLevel\Sitting Tune\mx_hotaru_sample\mx_hotaru_sample		4032064
+	227119305	sfx_footsteps_hard_01-005	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-005		15716
+	228744360	sfx_ambience_Birds_8-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_8-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_08\sfx_ambience_Birds_8-003		176704
+	237054201	Lion Growling-SoundBible_com-657113062	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\Lion Growling-SoundBible.com-657113062_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lion Growling-SoundBible_com-657113062		573444
+	239818669	sfx_ambience_Birds_1-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_1-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_01\sfx_ambience_Birds_1-001		151744
+	241107672	sfx_footsteps_wet_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_02		12328
+	241537451	sfx_ambience_low_wind_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_low_wind_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\DarkUpperLevel\Wind\Winds\sfx_ambience_low_wind_02		1440064
+	253747657	sfx_metal_clang_tail_01-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-003		40342
+	254411794	Chimes Lantern	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\Chimes Lantern_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Chimes Lantern		2205064
+	256309790	sfx_ambience_cave_creepy_10	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_10		659160
+	258501943	sfx_ambience_misc_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_misc_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Misc\sfx_ambience_misc_01		28886
+	262900198	sfx_mv_fabric_-008	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_fabric_-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Gak\sfx_mv_fabric_-008		35430
+	265302717	sfx_tendril_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_tendril_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tendril\Tendril\Tendril_Idle\sfx_tendril_02		1508060
+	288625468	sfx_grapple_hit_wall_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_grapple_hit_wall_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_Hit\sfx_grapple_hit_wall_01		19622
+	302243032	sfx_ambience_cave_creepy_04	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_04		1064320
+	326745693	sfx_footsteps_grass_Toe_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_grass_Toe_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_Grass\Grass_1\sfx_footsteps_grass_Toe_02		36242
+	329113067	sfx_footsteps_grass_Toe_05	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_grass_Toe_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_Grass\Grass_1\sfx_footsteps_grass_Toe_05		43078
+	335354027	sfx_footsteps_wet_17	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_17_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_17		14684
+	336403432	sfx_ambience_cave_creepy_03	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_03		976816
+	343993029	sfx_ambience_Birds_7-004	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-004		66304
+	365590614	sfx_ambience_cave_creepy_09	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_09		860716
+	371563294	sfx_ambience_Birds_2-012	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-012_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-012		53892
+	373588837	mx_nature_piano_calm_120bpm4-4_L4M	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_nature_piano_calm_120bpm4-4_L4M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\mx_nature_piano_calm_120bpm4-4_L4M		13440064
+	374879493	D_First_meeting_fireflies	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_First_meeting_fireflies_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\UpperLevel\D_First_meeting_fireflies		997304
+	376717974	sfx_footsteps_hard_01-004	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-004		27912
+	384185337	mx_main_motif_beginning	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\mx_main_motif_beginning_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\UpperLevel\Main_Motif\mx_main_motif_beginning\mx_main_motif_beginning		7372864
+	384853182	sfx_footsteps_wet_10	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_10		11120
+	387109824	sfx_ambience_Birds_2-008	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-008		138162
+	389237723	sfx_metal_clang_tail_01-004	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-004		49488
+	415334280	sfx_Cave_well_fall_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_Cave_well_fall_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\sfx_Cave_well_fall_01		785768
+	420090649	sfx_metal_clang_tail_01-013	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-013_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-013		42732
+	425022824	sfx_footsteps_hard_01-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-002		35022
+	428360136	sfx_footsteps_wet_08	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_08		8584
+	435810553	sfx_footsteps_wet_12	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_12		17544
+	441927365	sfx_tendril_03	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_tendril_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tendril\Tendril\Tendril_Idle\sfx_tendril_03		1508060
+	447699428	sfx_mv_fabric_-004	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_fabric_-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Gak\sfx_mv_fabric_-004		33510
+	454380812	sfx_ambience_Birds_7-008	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-008		85162
+	462478131	sfx_footsteps_hard_01-011	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-011		14618
+	462828471	sfx_ambience_Birds_6-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_6-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_06\sfx_ambience_Birds_6-001		92138
+	463957648	sfx_ambience_Birds_6-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_6-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_06\sfx_ambience_Birds_6-003		94184
+	466940249	sfx_metal_clang_tail_01-005	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-005		51906
+	468122707	sfx_ambience_Birds_2-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-002		108756
+	468325567	D_Harry_Sample	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Harry_Sample_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\D_Harry_Sample		3394560
+	491037622	D_Sick_Firefly	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Sick_Firefly_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\UpperLevel\D_Sick_Firefly		1513024
+	498406597	sfx_ambience_Birds_7-006	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-006		112502
+	501033258	sfx_metal_clang_tail_01-012	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-012_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-012		27684
+	512857307	sfx_ambience_Birds_5-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_5-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_05\sfx_ambience_Birds_5-002		74606
+	523334607	sfx_ambience_low_wind_03	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_low_wind_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\DarkUpperLevel\Wind\Winds\sfx_ambience_low_wind_03		1440064
+	526938905	sfx_ambience_Birds_4-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_4-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_04\sfx_ambience_Birds_4-002		308346
+	531894190	sfx_mv_water_splash_07	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_water_splash_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\Splashes\sfx_mv_water_splash_07		49972
+	535679795	sfx_footsteps_hard_01-009	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-009		13138
+	536242223	sfx_ambience_Birds_2-007	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-007		86000
+	541362448	sfx_footsteps_grass_Toe_04	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_grass_Toe_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_Grass\Grass_1\sfx_footsteps_grass_Toe_04		31900
+	550017488	sfx_footsteps_wet_16	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_16_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_16		10918
+	577607892	sfx_footsteps_wet_05	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_05		11548
+	582726057	D_Near_Tendrils	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Near_Tendrils_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cave\D_Near_Tendrils		572860
+	590182196	D_The last source of light_Corridor	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_The last source of light_Corridor_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cave\D_The last source of light_Corridor		5228268
+	590679558	sfx_ambience_Birds_6-005	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_6-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_06\sfx_ambience_Birds_6-005		119448
+	602500012	sfx_footsteps_wet_15	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_15		10272
+	609892289	sfx_ambience_cicada_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cicada_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Cicada\sfx_ambience_cicada_01		5856064
+	616424102	sfx_footsteps_wet_03	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_03		20582
+	617330260	sfx_ambience_Birds_2-011	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-011		101208
+	619118550	sfx_ambience_Birds_6-008	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_6-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_06\sfx_ambience_Birds_6-008		85504
+	621874009	sfx_tendril_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_tendril_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tendril\Tendril\Tendril_Idle\sfx_tendril_01		1508060
+	634775000	sfx_footsteps_hard_01-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-003		42660
+	646213513	D_Cave_Tendril_Alarm	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Cave_Tendril_Alarm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cave\D_Cave_Tendril_Alarm		343628
+	654434202	D_After_Feeding_The_Firefly	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_After_Feeding_The_Firefly_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\UpperLevel\D_After_Feeding_The_Firefly		894164
+	656427525	sfx_ambience_cave_creepy_13	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_13		552948
+	663502190	sfx_ambience_Birds_6-004	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_6-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_06\sfx_ambience_Birds_6-004		82590
+	669248201	sfx_ambience_cave_creepy_08	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_08		996900
+	673210458	sfx_metal_clang_hit_01-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_hit_01-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Bang\sfx_metal_clang_hit_01-003		39622
+	677921709	Wet Jump-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\Wet Jump-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Jumping\Wet\J_Wet\Wet Jump-001		36516
+	678434862	D_Cave_Cavern_Runestone	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Cave_Cavern_Runestone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cave\D_Cave_Cavern_Runestone		4147216
+	684470026	sfx_ambience_cave_creepy_12	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_12		290200
+	688995326	sfx_ambience_Birds_8-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_8-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_08\sfx_ambience_Birds_8-002		154890
+	694269364	sfx_ambience_Birds_7-011	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-011		76450
+	699679949	sfx_ambience_Birds_6-006	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_6-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_06\sfx_ambience_Birds_6-006		109504
+	709038516	sfx_metal_clang_tail_01-011	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-011		33498
+	713853016	sfx_ambience_Birds_7-010	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-010		109114
+	720795190	sfx_ambience_Birds_7-005	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-005		82624
+	726213784	sfx_metal_clang_tail_01-010	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-010		15684
+	726378517	sfx_mv_fabric_-006	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_fabric_-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Gak\sfx_mv_fabric_-006		45414
+	729955919	sfx_lantern_whoosh_01-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_lantern_whoosh_01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\Whoosh\sfx_lantern_whoosh_01-001		64024
+	735333818	sfx_metal_clang_tail_01-014	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-014_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-014		40246
+	737262590	sfx_ambience_Birds_7-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-001		219680
+	753548344	sfx_metal_clang_hit_01-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_hit_01-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Bang\sfx_metal_clang_hit_01-002		55734
+	755112037	sfx_footsteps_wet_14	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_14		7846
+	756898731	sfx_ambience_Birds_7-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-002		65540
+	786644068	sfx_ambience_Birds_6-009	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_6-009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_06\sfx_ambience_Birds_6-009		86464
+	786818914	sfx_footsteps_grass_Toe_03	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_grass_Toe_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_Grass\Grass_1\sfx_footsteps_grass_Toe_03		22976
+	804445392	sfx_ambience_Birds_6	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_03\sfx_ambience_Birds_6		639424
+	807967293	D_Mushroom_room	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Mushroom_room_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cave\D_Mushroom_room		4505340
+	811968472	sfx_ambience_Birds_6-007	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_6-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_06\sfx_ambience_Birds_6-007		66550
+	812416904	sfx_mv_fabric_-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_fabric_-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Gak\sfx_mv_fabric_-003		37576
+	812752574	sfx_metal_clang_hit_01-004	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_hit_01-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Bang\sfx_metal_clang_hit_01-004		31560
+	814875546	D_At_Well	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_At_Well_772B8C36.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\UpperLevel\D_At_Well		168404
+	814912550	mx_cutscene_03	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cutscene_03_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\UpperLevel\Sitting Tune\mx_cutscene_03\mx_cutscene_03		6451264
+	821163020	sfx_metal_clang_tail_01-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-001		47932
+	824414999	sfx_footsteps_grass_Toe_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_grass_Toe_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_Grass\Grass_1\sfx_footsteps_grass_Toe_01		54886
+	832701487	sfx_metal_clang_tail_01-006	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-006		15068
+	835748287	sfx_ambience_Birds_8-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_8-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_08\sfx_ambience_Birds_8-001		168562
+	837965014	sfx_ambience_Birds_2-004	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-004		100324
+	839906915	D_Pick_up_Food	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Pick_up_Food_B865ED31.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\UpperLevel\D_Pick_up_Food		167204
+	843218497	sfx_metal_clang_hit_01-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_hit_01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Bang\sfx_metal_clang_hit_01-001		63406
+	846343333	sfx_footsteps_wet_18	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_18_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_18		13092
+	846378628	sfx_lantern_whoosh_01-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_lantern_whoosh_01-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\Whoosh\sfx_lantern_whoosh_01-003		65964
+	846719313	D_Cave_Fall_Well	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Cave_Fall_Well_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cave\D_Cave_Fall_Well		2539812
+	855528841	Wet Jump-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\Wet Jump-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Jumping\Wet\J_Wet\Wet Jump-003		29198
+	857177588	sfx_ambience_cave_creepy_14	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_14		264916
+	858468184	sfx_ambience_Birds_5-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_5-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_05\sfx_ambience_Birds_5-001		121024
+	867277791	sfx_footsteps_wet_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_01		22200
+	876758326	mx_stinger_pick_up	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\mx_stinger_pick_up_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\mx_stinger_pick_up\mx_stinger_pick_up		1054676
+	882803344	sfx_cave_low_hum_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_cave_low_hum_02_8DF545CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Cavern\Hum\sfx_cave_low_hum_02		5312148
+	885579382	sfx_metal_clang_tail_01-008	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-008		27260
+	885845745	sfx_footsteps_wet_09	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_09		5150
+	890964074	sfx_ambience_Birds_4-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_4-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_04\sfx_ambience_Birds_4-001		85318
+	897014849	sfx_ambience_tree_rustle_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_tree_rustle_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\DarkUpperLevel\Wind\sfx_ambience_tree_rustle_01		3936064
+	897538707	sfx_ambience_wind_soft_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_wind_soft_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Wind\Winds\sfx_ambience_wind_soft_01		2880064
+	897781422	sfx_ambience_water_gurgle_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_water_gurgle_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\A_Gurgling_Stream\sfx_ambience_water_gurgle_02		1152064
+	903954876	sfx_footsteps_wet_04	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_04		10482
+	929592269	sfx_ambience_cave_creepy_05	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_05		755440
+	942158821	sfx_footsteps_hard_01-007	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-007		16940
+	945297232	sfx_ambience_cave_creepy_07	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_07		413572
+	945638209	sfx_mv_fabric_-005	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_fabric_-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Gak\sfx_mv_fabric_-005		38434
+	949308046	sfx_footsteps_hard_01-006	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-006		18408
+	956239355	sfx_metal_clang_tail_01-009	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-009		36898
+	966840598	sfx_ambience_cave_creepy_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_01		728292
+	989651391	sfx_mv_fabric_-001	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_fabric_-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Gak\sfx_mv_fabric_-001		51934
+	990892243	sfx_mv_water_splash_09	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_water_splash_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\Splashes\sfx_mv_water_splash_09		39440
+	991365060	sfx_ambience_water_gurgle_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_water_gurgle_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\A_Gurgling_Stream\sfx_ambience_water_gurgle_01		757832
+	998938789	sfx_ambience_Birds_2-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-003		116692
+	1003711305	D_Cutscene	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Cutscene_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\UpperLevel\D_Cutscene		5061852
+	1009254066	sfx_metal_clang_tail_01-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_metal_clang_tail_01-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\metals\Tail\sfx_metal_clang_tail_01-002		51216
+	1009525473	sfx_ambience_cave_drops_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_drops_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Drops\sfx_ambience_cave_drops_01		5712444
+	1019954697	D_Cave_Firefly_pickup_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Cave_Firefly_pickup_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cave\D_Cave_Firefly_pickup_01		864884
+	1027362179	sfx_mv_fabric_-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_fabric_-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Gak\sfx_mv_fabric_-002		46966
+	1034904601	sfx_ambience_Birds_4-003	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_4-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_04\sfx_ambience_Birds_4-003		175744
+	1038878071	sfx_footsteps_hard_01-008	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_hard_01-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\paving\sfx_footsteps_hard_01-008		17654
+	1041784391	sfx_ambience_low_wind_01	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_low_wind_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\DarkUpperLevel\Wind\Winds\sfx_ambience_low_wind_01		1440064
+	1043353527	mx_cutscene_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\mx_cutscene_02_D79FB2B7.wem		\Interactive Music Hierarchy\Hotaru\UpperLevel\Sitting Tune\mx_cutscene_02\mx_cutscene_02		6451264
+	1043543824	D_DARE_Transition_to_Darkness	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\D_DARE_Transition_to_Darkness_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\D_DARE_Transition_to_Darkness		515628
+	1044686006	sfx_ambience_Birds_2-006	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_2-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_02\sfx_ambience_Birds_2-006		101006
+	1046403007	sfx_lantern_whoosh_01-002	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_lantern_whoosh_01-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lantern\Lantern_swing\Whoosh\sfx_lantern_whoosh_01-002		78576
+	1050201975	sfx_mv_water_splash_08	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_mv_water_splash_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\Splashes\sfx_mv_water_splash_08		60996
+	1055320350	D_Cave_Tendril_Congrats	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\Voices\English(US)\D_Cave_Tendril_Congrats_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cave\D_Cave_Tendril_Congrats		1008096
+	1057164570	sfx_ambience_cave_creepy_02	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_02		975940
+	1063444917	sfx_ambience_Birds_7-007	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_Birds_7-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Upper Level\Fullupper\Upperlevel\Birds\Birds_07\sfx_ambience_Birds_7-007		217024
+	1068525347	sfx_ambience_cave_creepy_06	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_ambience_cave_creepy_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Cave\Cave\Caves\Screepy\sfx_ambience_cave_creepy_06		573996
+	1072195334	sfx_footsteps_wet_13	D:\Documents\WwiseProjects\Hotaru\.cache\Windows\SFX\sfx_footsteps_wet_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps\F_WetSteps\F_RWetSteps\sfx_footsteps_wet_13		12014
+
